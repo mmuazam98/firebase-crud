@@ -162,8 +162,8 @@ const App = () => {
           <TableHeadings>Actions</TableHeadings>
         </thead>
         <tbody>
-          {users.map((user) => (
-            <tr>
+          {users.map((user, idx) => (
+            <tr key={idx}>
               <TableData>{user.name}</TableData>
               <TableData>{user.age}</TableData>
               <TableData>

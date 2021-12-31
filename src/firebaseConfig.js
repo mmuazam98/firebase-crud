@@ -2,22 +2,20 @@ import { initializeApp } from "firebase/app";
 
 import { getFirestore } from "@firebase/firestore";
 
-const config = process.env;
-
 const firebaseConfig = {
-  apiKey: config.REACT_APP_API_KEY,
+  apiKey: "AIzaSyBd1kuLhE0VWwEV8XkQ9OyjVEepFEinHr0",
 
-  authDomain: config.REACT_APP_AUTH_DOMAIN,
+  authDomain: "fir-crud-b8507.firebaseapp.com",
 
-  projectId: config.REACT_APP_PROJECT_ID,
+  projectId: "fir-crud-b8507",
 
-  storageBucket: config.REACT_APP_STORAGE_BUCKET,
+  storageBucket: "fir-crud-b8507.appspot.com",
 
-  messagingSenderId: config.REACT_APP_MESSAGING_SENDER_ID,
+  messagingSenderId: "1:732659046677:web:85d54ca2702fa4391df11c",
 
-  appId: config.REACT_APP_APP_ID,
+  appId: "1:732659046677:web:85d54ca2702fa4391df11c",
 
-  measurementId: config.REACT_APP_MEASUREMENT_ID,
+  measurementId: "G-Y8C12T74LY",
 };
 
 // Establish a connection
